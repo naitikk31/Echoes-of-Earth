@@ -70,7 +70,7 @@ An interactive 3D globe that transforms live news into dramatic terrain deformat
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/echoes-of-earth.git
+   git clone https://github.com/naitikk31/Echoes-of-Earth.git
    cd echoes-of-earth
    ```
 
@@ -79,24 +79,12 @@ An interactive 3D globe that transforms live news into dramatic terrain deformat
    npm install
    ```
 
-3. **Set up environment variables**
-   ```bash
-   cp .env.example .env
-   ```
-   Then edit `.env` and add your NewsAPI key:
-   ```env
-   VITE_NEWS_API_KEY=your_api_key_here
-   ```
-
-4. **Start the development server**
+3. **Start the development server**
    ```bash
    npm run dev
    ```
 
-5. **Open** [http://localhost:5173](http://localhost:5173) in your browser
-
-> [!NOTE]
-> The app works without an API key — it will use built-in mock data showing realistic global crisis scenarios across 30+ countries.
+4. **Open** [http://localhost:5173](http://localhost:5173) in your browser
 
 ---
 
